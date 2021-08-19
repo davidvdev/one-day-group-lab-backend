@@ -1,6 +1,19 @@
 const Song = require('../models/song')
 const {Router} = require('express')
 const router = Router()
+const seedData = require('../db/songs.json')
+
+// seed
+router.get("/seed", async(req,res) => {
+    try{
+        await Song.deleteMany({})
+        const seed = await Song.insertMany(seedData)
+        res.json({
+            status: 200,
+            data: seed
+        })
+    }catch(err){console.log('error: ', err)}
+})
 
 // index
 router.get("/", async (req,res) => {
