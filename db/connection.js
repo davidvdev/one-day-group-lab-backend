@@ -4,7 +4,8 @@ const mongoose = require('mongoose')
 const {MONGODB_URI} = process.env
 const config = {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useFindAndModify: false
 }
 //connect
 mongoose.connect(MONGODB_URI, config)
