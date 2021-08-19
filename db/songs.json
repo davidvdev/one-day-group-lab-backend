@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Two Weeks",
+        "artist": "Grizzly Bear",
+        "time": "4:03",
+        "favorite": false
+    },
+    {
+        "title": "Heat Waves",
+        "artist": "Glass Animals",
+        "time": "3:59",
+        "favorite": false
+    },
+    {
+        "title": "A Real Hero",
+        "artist": "Electric Youth",
+        "time": "4:28",
+        "favorite": false
+    },
+    {
+        "title": "Party Jams",
+        "artist": "Gnarwolves",
+        "time": "1:49",
+        "favorite": false
+    },
+    {
+        "title": "Wooden Heart",
+        "artist": "Listener",
+        "time": "4:08",
+        "favorite": false
+    },
+    {
+        "title": "Dance Yrself Clean",
+        "artist": "LCD Soundsystem",
+        "time": "8:56",
+        "favorite": false
+    }
+]
